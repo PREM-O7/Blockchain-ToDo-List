@@ -9,11 +9,16 @@ A **secure, immutable to-do list** built on **blockchain principles**. This proj
 ✅ Prevents data tampering  
 ✅ Simple CLI interface for adding & viewing tasks  
 
-## How to Run 🚀
-```sh
-g++ todo_blockchain.cpp -o todo -lssl -lcrypto
-./todo
-```
+## How to Run 🚀 
+1. Install OpenSSL.
+2. Compile the program:
+   ```bash
+   g++ -o todo_list todo_list.cpp -lssl -lcrypto
+   ```
+3. Run the program:
+   ```bash
+   ./todo_list
+   ```
 
 ## Preview 🖥️
 - **Add tasks securely**  
